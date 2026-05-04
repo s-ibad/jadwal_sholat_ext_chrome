@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=360, initial-scale=1.0">
+  <title>Jadwal Sholat</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header-modern">
+      <span class="header-icon"> 🕌 </span>
+      <span class="header-title">Jadwal Sholat</span>
+    </div>
+    <div id="current-time" class="current-time"></div>
+    <div class="location-row">
+      <span class="location-icon">📍</span>
+      <span id="location-name" class="location-name">Mendeteksi lokasi...</span>
+    </div>
+    <div id="date" class="date-modern date-modern-box">
+      <span class="date-icon">📅</span>
+      <span id="date-info"></span>
+    </div>
+    <div id="prayer-times"></div>
+    <div class="notif-toggle-row">
+      <label class="switch">
+        <input type="checkbox" id="notif-toggle" checked>
+        <span class="slider"></span>
+      </label>
+      <span class="notif-label">Notifikasi Sholat</span>
+    </div>
+    <footer style="text-align:center; margin-top:12px; font-size:12px; color:#888;">
+      <span style="font-size:13px; vertical-align:middle;">&copy; 2025</span>
+      <span style="font-size:15px; vertical-align:middle;">🧑‍💻</span>
+      | s.ibad &nbsp; 
+      <a href="https://github.com/s-ibad" target="_blank" style="color:#007aff;text-decoration:none;font-weight:600;">GitHub</a>
+      &nbsp; <span style="color:#bbb;">Versi 1.0</span>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
