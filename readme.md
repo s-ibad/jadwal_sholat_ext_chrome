@@ -1,7 +1,8 @@
 # Jadwal Sholat Chrome Extension
 
-Ekstensi Chrome sederhana untuk menampilkan jadwal sholat harian berdasarkan lokasi pengguna secara otomatis.  
-Tampilan modern, ringan, dan responsif, cocok untuk kebutuhan sehari-hari umat Muslim.
+Ekstensi Chrome modern dan responsif untuk memantau jadwal sholat harian secara otomatis berdasarkan lokasi Anda, lengkap dengan notifikasi tepat waktu.
+
+![Preview Aplikasi](assets/preview.png)
 
 ## Fitur
 
